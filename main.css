@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  text-align: justify;
+  position: relative;
+  overscroll-behavior-y: none;
+}
+
+section {
+  margin: 10% 20%;
+}
+
+h2,
+h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  line-height: 175%;
+  color: rgb(31, 31, 31);
+}
+
+#progress-bar {
+  z-index: 100;
+  width: 0%;
+  height: 9px;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
